@@ -170,3 +170,8 @@ function calculateDiscountedPrice(price, discountRate, isVipCustomer) {
     
     return Math.round(finalPrice);
 }
+
+// タスクの締め切り日を設定・表示する機能を追加する
+function addTaskDeadlineFeature() {
+    // この関数を実装
+}
