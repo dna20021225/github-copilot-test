@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Copilot 機能体験</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>GitHub Copilot 機能体験</h1>
+        
+        <section class="task-section">
+            <h2>タスク管理アプリ</h2>
+            <div class="task-input">
+                <input type="text" id="taskInput" placeholder="新しいタスクを入力">
+                <button id="addTask">追加</button>
+            </div>
+            <ul id="taskList"></ul>
+        </section>
+        
+        <section class="conversion-section">
+            <h2>温度変換</h2>
+            <div class="conversion-input">
+                <input type="number" id="celsiusInput" placeholder="摂氏（°C）">
+                <button id="convertTemp">変換</button>
+                <div id="temperatureResult"></div>
+            </div>
+        </section>
+        
+        <section class="validation-section">
+            <h2>メールアドレス検証</h2>
+            <div class="validation-input">
+                <input type="text" id="emailInput" placeholder="メールアドレスを入力">
+                <button id="validateEmail">検証</button>
+                <div id="validationResult"></div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
