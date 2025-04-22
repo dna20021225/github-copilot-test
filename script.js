@@ -39,6 +39,8 @@ function initTaskManager() {
         }
     });
     
+
+    // 演習3: バグ検出と修正の体験
     // タスク追加関数 - ここに意図的なバグを入れておく
     function addNewTask() {
         const taskText = taskInput.value.trim();
@@ -130,6 +132,7 @@ function initTemperatureConverter() {
     const convertButton = document.getElementById('convertTemp');
     const resultDiv = document.getElementById('temperatureResult');
     
+    // 演習1: コード補完機能を体験する
     // 摂氏から華氏に変換して表示する機能を実装
     convertButton.addEventListener('click', function() {
         // この部分はCopilotに実装させる
@@ -140,10 +143,13 @@ function initTemperatureConverter() {
  * メールアドレス検証機能の初期化
  * Copilotに実装させることを想定
  */
+
+// 演習2: コメントからコード生成を体験する
 function initEmailValidator() {
     // この関数全体をCopilotに実装させる
 }
 
+// 演習4: コードリファクタリングの提案体験
 // Copilotにリファクタリングを提案させるための非効率な関数
 function findMaxNumber(numbers) {
     let max = numbers[0];
